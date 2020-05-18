@@ -11,9 +11,6 @@ import Register from './components/register/Register.js'
 import 'tachyons';
 import './App.css';
 
-// const app = new Clarifai.App({
-//   apiKey: '588177675d0c4352862d63ec05e96293'
-// }) ;
 
 
 const particlesOptions ={
