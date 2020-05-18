@@ -1,33 +1,22 @@
 {
   "name": "facerecognition",
-  "homepage": "https://SnehaJujare.github.io/Face-Detect-Frontend",
+  "homepage": "https://SnehaJujare.github.io/Face-Detect-Frontend",    
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
-    "body-parser": "^1.19.0",
-    "clarifai": "^2.9.1",
-    "express": "^4.17.1",
-    "gh-pages": "^2.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-particles-js": "^3.2.1",
     "react-scripts": "3.4.1",
-    "react-tilt": "^0.1.4",
-    "serve": "^11.3.0",
-    "tachyons": "^4.12.0",
-    "yargs": "^15.3.1"
+    "serve": "^11.3.0"
   },
   "scripts": {
     "start": "serve -s build",
-    "heroku-postbuild": "npm run build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -43,13 +32,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "devDependencies": {
-    "nodemon": "^2.0.3"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }
